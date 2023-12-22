@@ -20,27 +20,6 @@ Hey there! 👋 I'm Ayush, and this is my very first Kotlin project. I'm diving 
 - Simple yet surprisingly strategic.
 - Perfect for practicing Kotlin.
 
-## How to Play
-
-1. **Clone the Repository:**
-    ```bash
-    git clone https://github.com/your-username/rock-paper-scissors-kotlin.git
-    ```
-
-2. **Navigate to the Project:**
-    ```bash
-    cd rock-paper-scissors-kotlin
-    ```
-
-3. **Run the Game:**
-    ```bash
-    kotlinc -include-runtime -d RockPaperScissors.jar RockPaperScissors.kt
-    java -jar RockPaperScissors.jar
-    ```
-
-4. **Have Fun:**
-    - Enter your choice (rock, paper, or scissors).
-    - See who emerges victorious in this epic battle!
 
 ## Why GitHub?
 
