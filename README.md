@@ -1,6 +1,9 @@
 # 🚀 My First Kotlin Project: Rock-Paper-Scissors Game 🎮
 
+You may notice a lot of useless stuff, it is just because i created this project in AndroidStudio
 Welcome to the epic world of Rock-Paper-Scissors in Kotlin! 🪨📄✂️
+
+
 
 ## How the Game Works
 
