@@ -6,18 +6,31 @@ fun main(){
     //var playerChoice=""
 
     println("Rock, Paper, Scissors?")
-    println("Enter your choice: ")
-    var playerChoice=readln()
+    print("Enter your choice: ")
+
+    val playerChoice=readln().lowercase()
 
 
 
     val randomNumber=(1..3).random()
 
     when(randomNumber) {
-        1-> computerChoice="Rock"
-        2-> computerChoice="Paper"
-        3-> computerChoice="Scissor"
+        1-> computerChoice="rock"
+        2-> computerChoice="paper"
+        3-> computerChoice="scissor"
     }
 
-    println(computerChoice)
+    println("Computer Chose "+computerChoice)
+
+    val winner= when {
+        playerChoice==computerChoice-> "TIE"
+
+        playerChoice=="rock" && computerChoice == "scissor" -> "Player Won!"
+        playerChoice=="paper" && computerChoice == "rock" -> "Player Won!"
+        playerChoice=="scissor" && computerChoice == "paper" -> "Player Won!"
+
+        else -> "Computer"
+    }
+
+    println(winner)
 }
